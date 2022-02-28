@@ -1,0 +1,9 @@
+---
+spec:
+  name: do-bombardier
+  workers:
+  - name: bombardier
+    dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/korol-sas/digitalocean-bombardier.git

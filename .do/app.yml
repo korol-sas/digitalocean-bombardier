@@ -1,0 +1,9 @@
+---
+name: do-bombardier
+workers:
+- name: bombardier
+  dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: korol-sas/digitalocean-bombardier
